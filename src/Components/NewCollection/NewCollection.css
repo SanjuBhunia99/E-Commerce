@@ -1,0 +1,40 @@
+.newcollections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom:30px;
+}
+
+.newcollections h1 {
+    color: #171717;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.newcollections hr {
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252522;
+}
+
+.collections {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+    gap: 30px;
+    max-width: 1200px;
+}
+
+@media (max-width: 992px) {
+    .collections {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .collections {
+        grid-template-columns: 1fr;
+    }
+}
