@@ -1,6 +1,5 @@
 import React from 'react'
 import './NewCollection.css'
-// import new_collections from '../../assets/newcollections.js'
 import new_collections from '../../assets/newcollections.js'
 import Item from "../Item/Item.jsx"
 

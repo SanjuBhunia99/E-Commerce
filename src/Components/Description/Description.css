@@ -5,6 +5,7 @@
 .descriptionbox-navigator {
     display: flex;
 }
+
 .descriptionbox-nav-box {
     display: flex;
     align-items: center;
@@ -15,14 +16,17 @@
     height: 50px;
     border: 1px solid #d0d0d0;
 }
+
 .descriptionbox-nav-box:hover {
     background: #f5f5f5;
     cursor: pointer;
 }
+
 .descriptionbox-nav-box.fade {
     background: #fbfbfb;
     color: #555;
 }
+
 .descriptionbox-description {
     display: flex;
     flex-direction: column;
@@ -30,4 +34,47 @@
     border: 1px solid #D0D0D0;
     padding: 40px;
     padding-bottom: 50px;
+}
+
+@media (max-width:1024px) {
+
+    .descriptionbox {
+        margin: 60px 30px;
+    }
+
+    .descriptionbox-nav-box {
+        width: 130px;
+        height: 45px;
+        font-size: 15px;
+    }
+
+    .descriptionbox-description {
+        padding: 30px;
+    }
+
+}
+
+@media (max-width:480px) {
+
+    .descriptionbox {
+        margin: 40px 15px;
+    }
+
+    .descriptionbox-navigator {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .descriptionbox-nav-box {
+        width: 120px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .descriptionbox-description {
+        padding: 20px;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
 }

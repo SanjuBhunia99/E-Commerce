@@ -7,9 +7,11 @@
       background: #fff;
       transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
+
 .item p {
-    margin: 6px 4px;
+      margin: 6px 4px;
 }
+
 .item img {
       border-top-left-radius: 20px;
       border-top-right-radius: 20px;
@@ -38,8 +40,59 @@
       font-weight: 500;
       text-decoration: line-through;
 }
-   
+
 .item:hover {
       transform: scale(1.05);
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-} 
+}
+
+@media (max-width:480px) {
+
+      .item {
+            width: 90%;
+            margin: auto;
+      }
+
+      .item img {
+            height: 180px;
+      }
+
+      .item-price-new,
+      .item-price-old {
+            font-size: 14px;
+      }
+
+      .item-prices {
+            gap: 12px;
+      }
+
+}
+
+@media (min-width:481px) and (max-width:1024px) {
+
+      .item {
+            width: 220px;
+      }
+
+      .item img {
+            height: 190px;
+      }
+
+      .item-price-new,
+      .item-price-old {
+            font-size: 15px;
+      }
+
+}
+
+@media (min-width:1025px) {
+
+      .item {
+            width: 250px;
+      }
+
+      .item img {
+            height: 200px;
+      }
+
+}

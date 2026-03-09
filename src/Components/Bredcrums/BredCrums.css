@@ -1,12 +1,51 @@
-.bredcrums{
-    display:flex;
+.bredcrums {
+    display: flex;
     align-items: center;
-    gap:6px;
-    color:#141414;
-    font-size:16px;
+    gap: 6px;
+    color: #141414;
+    font-size: 16px;
     font-weight: 600;
     justify-content: center;
     margin-top: 30px;
     margin-bottom: 20px;
     text-transform: capitalize;
+}
+
+@media (max-width:480px) {
+
+    .bredcrums {
+        font-size: 13px;
+        gap: 4px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .bredcrums img {
+        height: 8px;
+    }
+
+}
+
+@media (min-width:481px) and (max-width:1024px) {
+
+    .bredcrums {
+        font-size: 14px;
+        gap: 5px;
+    }
+
+    .bredcrums img {
+        height: 9px;
+    }
+
+}
+
+
+@media (min-width:1025px) {
+
+    .bredcrums {
+        font-size: 16px;
+    }
+
 }

@@ -4,8 +4,6 @@
     align-items: center;
     gap: 10px;
     min-height: 75vh;
-
-    /* background:linear-gradient(180deg, #e1ffea22,#47fdae 60%) */
 }
 
 .popular h1 {
@@ -36,16 +34,47 @@
     max-width: 250px;
 }
 
-/* Tablet */
-@media (max-width: 992px) {
+@media (max-width:992px) {
+
+    .popular h1 {
+        font-size: 32px;
+    }
+
+    .popular-item {
+        gap: 25px;
+    }
+
     .popular-item .item {
         flex: 1 1 45%;
     }
+
 }
 
-/* Mobile */
-@media (max-width: 576px) {
+@media (max-width:576px) {
+
+    .popular {
+        min-height: auto;
+        margin: 40px 10px;
+    }
+
+    .popular h1 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .popular hr {
+        width: 120px;
+        height: 5px;
+    }
+
+    .popular-item {
+        margin-top: 30px;
+        gap: 20px;
+    }
+
     .popular-item .item {
         flex: 1 1 90%;
+        max-width: 100%;
     }
+
 }
