@@ -3,7 +3,7 @@
 🚀 Live Demo: [https://soft-cranachan-7d8331.netlify.app/]
 
 
-##📌 Project Overview
+## 📌 Project Overview
 
 <h6>This is a modern E-Commerce frontend application built using HTML, CSS, JavaScript, and React. It provides a smooth and responsive shopping experience where users can browse products, view details, and manage their cart.</h6>
 
@@ -29,18 +29,31 @@ The project focuses on UI/UX design, component-based architecture, and state man
 │── public/
 │── src/
 │   ├── components/
+
 │   │   ├── Navbar.jsx
+
 │   │   ├── ProductCard.jsx
+
 │   │   ├── Cart.jsx
+
 │   │   └── Footer.jsx
+
 │   ├── pages/
+
 │   │   ├── Home.jsx
+
 │   │   ├── ProductDetails.jsx
+
 │   ├── data/
+
 │   ├── App.js
+
 │   ├── index.js
+
 │── package.json
-🚀 Getting Started
+
+## 🚀 Getting Started
+
 1️⃣ **Clone the Repository**
 - git clone [https://github.com/SanjuBhunia99/E-Commerce.git]
 2️⃣ **Install Dependencies**
