@@ -1,4 +1,4 @@
-🛒 <h1>E-Commerce Cartify Frontend (React)</h1>
+ <h1>🛒 E-Commerce Cartify Frontend (React)</h1>
 
 🚀 Live Demo: [https://soft-cranachan-7d8331.netlify.app/]
 
